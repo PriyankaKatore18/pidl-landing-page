@@ -1,0 +1,24 @@
+{
+  "name": "pidl-landing-page",
+  "version": "1.0.0",
+  "description": "Node.js landing page for PIDL Digital Marketing Batch 3",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./styles.css --minify",
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "pidl",
+    "digital marketing",
+    "landing page",
+    "tailwindcss"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
